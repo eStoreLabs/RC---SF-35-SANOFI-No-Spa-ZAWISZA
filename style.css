@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face 
 {font-family: "MontserratRegular";
-src: url(./fonts/Montserrat-Regular.ttf) format("truetype");
+src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Montserrat-Regular.ttf) format("truetype");
 }
 @font-face {
 font-family: "MontserratBold";
-src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
+src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Montserrat-Bold.ttf) format("truetype");
 }
 
 #es-sanofi.es-sanofi {
@@ -887,10 +887,10 @@ src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
     gap: 24px;
   }
   #es-sanofi.es-sanofi .es-benefits__pic {
-    height: 200px;
+    height: 220px;
   }
   #es-sanofi.es-sanofi .es-benefits__single {
-    width: 200px;
+    width: 220px;
   }
   #es-sanofi.es-sanofi .es-benefits__txt {
     font-size: 18px;
@@ -919,10 +919,10 @@ src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
     gap: 48px;
   }
   #es-sanofi.es-sanofi .es-reasons__pic {
-    height: 200px;
+    height: 220px;
   }
   #es-sanofi.es-sanofi .es-reasons__single {
-    width: 200px;
+    width: 220px;
   }
   #es-sanofi.es-sanofi .es-reasons__txt {
     font-size: 18px;
@@ -1040,7 +1040,7 @@ src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
   display: block;
 }
 #es-sanofi.es-sanofi .es-treatment__content {
-  background: url(./img/bg-1.png);
+  background: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/img/bg-1.png);
   background-repeat: no-repeat;
   position: relative;
   z-index: 5;
@@ -1073,7 +1073,7 @@ src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
   margin-top: -35%;
 }
 #es-sanofi.es-sanofi .es-wrapper2 {
-  background-image: url(./img/bg.png);
+  background-image: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/img/bg.png);
 }
 #es-sanofi.es-sanofi .es-reasons {
   background-color: transparent;
