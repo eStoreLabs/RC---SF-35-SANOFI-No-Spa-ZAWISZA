@@ -689,100 +689,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
   aspect-ratio: 16/9;
 }
 
-#es-sanofi.es-sanofi .es-info {
-  background-color: #553C8D;
-}
-
-#es-sanofi.es-sanofi .es-info__title {
-  margin: 0;
-  padding: 24px 0;
-  line-height: inherit;
-  color: #fff;
-  font-family: "MontserratBold", sans-serif;
-  font-size: 22px;
-  text-transform: uppercase;
-  text-align: center;
-  max-width: 300px;
-  margin-inline: auto;
-  margin-top: -40%;
-}
-
-#es-sanofi.es-sanofi .es-info__txt {
-  margin: 0;
-  padding: 8px;
-  line-height: inherit;
-  color: #fff;
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: 13px;
-  padding-bottom: 16px;
-  text-align: center;
-  max-width: 355px;
-  margin-inline: auto;
-}
-
-#es-sanofi.es-sanofi .es-info__content {
-  padding-bottom: 24px;
-}
-
-#es-sanofi.es-sanofi .es-info__name {
-  margin: 16px 0;
-  padding: 0;
-  line-height: inherit;
-  color: #fdc200;
-  font-family: "MontserratBold", sans-serif;
-  font-size: 13px;
-  text-align: center;
-  margin-inline: auto;
-  max-width: 280px;
-}
-
-#es-sanofi.es-sanofi .es-info__btn {
-  line-height: inherit;
-  font-family: "MontserratBold", sans-serif;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 220px;
-  min-height: 50px;
-  margin: 5px auto;
-  text-align: center;
-  text-decoration: none;
-  color: #52338c;
-  background: rgb(253,194,0);
-  background: linear-gradient(180deg, rgba(253,194,0,1) 0%, rgba(255,235,0,1) 50%, rgba(253,194,0,1) 100%);
-  border-radius: 25px;
-  line-height: 1;
-  box-shadow: 8px 8px 28px -10px rgb(17, 17, 17);
-  transition: 0.3s ease-in-out;
-  margin-bottom: 32px;
-  /* -webkit-animation: es-pulse-2 2s infinite;
-          animation: es-pulse-2 2s infinite; */
-}
-
-#es-sanofi.es-sanofi .es-info__btn:hover {
-  transform: scale(0.98);
-  box-shadow: inset 0 0 0 0 rgb(17, 17, 17);
-  background: rgb(255,240,100);
-  background: linear-gradient(180deg, rgba(255,235,0,1) 0%, rgba(253,194,0,1) 50%, rgba(255,235,0,1) 100%);
-  /* -webkit-animation: none;
-  animation: none; */
-}
-
-#es-sanofi.es-sanofi .es-info__pic {
-  max-width: 90%;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 15px;
-}
-
-#es-sanofi.es-sanofi .es-info__img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
 #es-sanofi.es-sanofi .es-footer__claims {
   margin: 0;
   padding: 8px;
@@ -844,6 +750,12 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
   font-style: normal;
 }
 
+#es-sanofi.es-sanofi .es-info__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (min-width: 404px) {
   #es-sanofi.es-sanofi .es-cross__title {
     max-width: 404px;
@@ -852,7 +764,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
 
 @media (min-width: 505px) {
   #es-sanofi.es-sanofi .es-kv__title {
-    font-size: 24px;
+    font-size: 28px;
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 20px;
@@ -998,15 +910,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
   #es-sanofi.es-sanofi .es-cross__txt {
     font-size: 16px;
   }
-  #es-sanofi.es-sanofi .es-info__title {
-    font-size: 32px;
-    max-width: 600px;
-  }
-  #es-sanofi.es-sanofi .es-info__txt {
-    font-size: 18px;
-    max-width: 777px;
-    padding: 32px;
-  }
 }
 
 @media (min-width: 1001px) {
@@ -1098,27 +1001,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
 #es-sanofi.es-sanofi .es-cross__signature {
   padding: 20px 0;
   font-size: 16px;
-}
-#es-sanofi.es-sanofi .es-info__title {
-  margin-top: -35%;
-}
-#es-sanofi.es-sanofi .es-info__name {
-  font-size: 18px;
-  max-width: 280px;
-}
-#es-sanofi.es-sanofi .es-info__pic {
-  max-width: 100%;
-}
-#es-sanofi.es-sanofi .es-info__content {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-}
-#es-sanofi.es-sanofi .es-info__single {
-  width: 30%;
-}
-#es-sanofi.es-sanofi .es-info__name {
-  min-height: 65px;
 }
 #es-sanofi.es-sanofi .es-footer__claims {
   font-size: 16px;
