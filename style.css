@@ -195,21 +195,20 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
 }
 #es-sanofi.es-sanofi .es-treatment__txt {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   line-height: inherit;
   color: #52338c;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 18px;
-  margin-bottom: 24px;
+  font-size: 16px;
+  margin-bottom: 12px;
   text-align: center;
   margin-inline: auto;
-  max-width: 355px;
+  max-width: 415px;
 }
 
-#es-sanofi.es-sanofi .es-treatment__txt--small {
-  font-size: 13px;
-  max-width: 365px;
+#es-sanofi.es-sanofi .es-treatment__txt--desktop {
+  display: none;
 }
 
 #es-sanofi.es-sanofi .es-treatment__txt--span {
@@ -218,21 +217,18 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
 }
 
 #es-sanofi.es-sanofi .es-treatment__content {
-  background: rgb(82,51,140);
-  background: linear-gradient(310deg, rgba(82,51,140,1) 0%, rgba(82,51,140,1) 50%, rgba(94,66,148,1) 50%, rgba(94,66,148,1) 100%);  
+  background-color: #d32833;
 }
 
 #es-sanofi.es-sanofi .es-treatment__subtitle {
   margin: 0;
-  padding: 0;
+  padding: 20px 10px;
   line-height: inherit;
   color: #fff;
-  font-family: "MontserratBold", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   margin-inline: auto;
-  max-width: 300px;
-  padding-top: 24px;
+  max-width: 385px;
 }
 
 #es-sanofi.es-sanofi .es-treatment__img {
@@ -554,12 +550,17 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
   max-width: 355px;
 }
 
+#es-sanofi.es-sanofi .es-cross__txt--1 {
+  margin-top: 0;
+}
+
 #es-sanofi.es-sanofi .es-cross__signature {
-  margin: 0;
-  padding: 19px 0;
+  margin: 0 0 22px 0;
+  padding: 0;
   line-height: inherit;
   color: #52338c;
-  font-family: "MontserratBold", sans-serif;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 13px;
   text-align: center;
   white-space: nowrap;
@@ -574,7 +575,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
   justify-content: flex-end;
   align-items: flex-start;
   flex-flow: column;
-  margin-bottom: 133px;
+  margin-bottom: 116px;
   margin-right: 16px;
 }
 
@@ -859,15 +860,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
     font-size: 32px;
     padding: 32px 0;
   }
-  #es-sanofi.es-sanofi .es-treatment__txt {
-    font-size: 22px;
-  }
-  #es-sanofi.es-sanofi .es-treatment__txt--small {
-    font-size: 18px;
-  }
-  #es-sanofi.es-sanofi .es-treatment__subtitle {
-    font-size: 24px;
-  }
   #es-sanofi.es-sanofi .es-dose__title {
     font-size: 32px;
   }
@@ -950,27 +942,57 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
 }
 #es-sanofi.es-sanofi .es-treatment {
   position: relative;
+  min-height: 666px;
 }
 #es-sanofi.es-sanofi .es-treatment__txt {
-  max-width: 520px;
-  margin-left: 60px;
+  max-width: unset;
+  padding: 20px 410px 20px 60px;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
 }
-#es-sanofi.es-sanofi .es-treatment__txt--small {
-  max-width: 466px;
-  margin-left: 80px;
+#es-sanofi.es-sanofi .es-treatment__txt--1 {
+  background-color: #d32833;
+  color: #fff;
+  padding-right: 325px;
+}
+#es-sanofi.es-sanofi .es-treatment__txt--2::before {
+  content: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/img/dot.webp);
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 30px;
+  height: 30px;
+}
+#es-sanofi.es-sanofi .es-treatment__txt--mobile {
+  display: none;
+}
+#es-sanofi.es-sanofi .es-treatment__txt--desktop {
+  display: block;
 }
 #es-sanofi.es-sanofi .es-treatment__subtitle {
-  max-width: 400px;
-  margin-left: 120px;
+  max-width: 490px;
+  margin-left: 50px;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
 }
 #es-sanofi.es-sanofi .es-treatment__img--desktop {
   display: block;
   position: absolute;
-  top: 111px;
+  top: 125px;
   right: 0px;
 }
 #es-sanofi.es-sanofi .es-treatment__img--mobile {
   display: none;
+}
+#es-sanofi.es-sanofi .es-treatment__img--pill {
+  display: none;
+}
+#es-sanofi.es-sanofi .es-treatment__img--packshot {
+  top: 410px;
+  right: 100px;
+  z-index: 10;
 }
 #es-sanofi.es-sanofi .es-video__title {
   margin-top: -35%;
@@ -995,11 +1017,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-ZAWISZA/fonts/Mon
 #es-sanofi.es-sanofi .es-ingr {
   width: 47%;
 }
-#es-sanofi.es-sanofi .es-cross__header {
-  margin-bottom: 117px;
-}
 #es-sanofi.es-sanofi .es-cross__signature {
-  padding: 20px 0;
   font-size: 16px;
 }
 #es-sanofi.es-sanofi .es-footer__claims {
